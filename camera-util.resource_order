@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"Camera","order":2,"path":"scripts/Camera/Camera.yy",},
     {"name":"rm_test","order":1,"path":"rooms/rm_test/rm_test.yy",},
   ],
 }
