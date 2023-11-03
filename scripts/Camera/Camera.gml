@@ -15,7 +15,7 @@ function camera_init() {
 			time_source_destroy(global.camera_interval);
 			return;
 		}
-		instance_create_depth(0, 0, 16001, obj_camera);
+		global.camera = instance_create_depth(0, 0, 16001, obj_camera);
 	};
 	time_source_reconfigure(
 		global.camera_interval,
@@ -30,11 +30,6 @@ function camera_init() {
 
 camera_init();
 
-function camera_warn() {
-	if (instance_exists(obj_camera)) return;
-	show_error("Camera does not exist yet. Cannot call camera functions.", true);
-}
-
 /**
  * Sets the width, heigh, and size multiplier of the camera.
  *
@@ -43,7 +38,6 @@ function camera_warn() {
  * @param {real} multiplier
  */
 function camera_set_size(width, height, multiplier=1) {
-	camera_warn();
 	global.camera.width = width;
 	global.camera.height = height;
 	global.camera.multiplier = multiplier;
@@ -57,7 +51,6 @@ function camera_set_size(width, height, multiplier=1) {
  * @param {real} position_y
  */
 function camera_set_position(position_x, position_y) {
-	camera_warn();
 	camera_set_view_pos(view_camera[0], position_x, position_y);
 }
 
@@ -65,7 +58,6 @@ function camera_set_position(position_x, position_y) {
  * Get the x position of the camera.
  */
 function camera_get_x() {
-	camera_warn();
 	return camera_get_view_x(view_camera[0]);
 }
 
@@ -73,16 +65,13 @@ function camera_get_x() {
  * Get the y position of the camera.
  */
 function camera_get_y() {
-	camera_warn();
 	return camera_get_view_y(view_camera[0]);
 }
 
 function camera_get_width() {
-	camera_warn();
 	return global.camera.width;
 }
 
 function camera_get_height() {
-	camera_warn();
 	return global.camera.height;
 }
