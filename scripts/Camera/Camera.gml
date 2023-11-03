@@ -32,7 +32,7 @@ camera_init();
 
 function camera_warn() {
 	if (instance_exists(obj_camera)) return;
-	show_debug_message("Camera does not exist yet. Cannot call camera functions.");
+	show_error("Camera does not exist yet. Cannot call camera functions.", true);
 }
 
 /**
@@ -75,4 +75,14 @@ function camera_get_x() {
 function camera_get_y() {
 	camera_warn();
 	return camera_get_view_y(view_camera[0]);
+}
+
+function camera_get_width() {
+	camera_warn();
+	return global.camera.width;
+}
+
+function camera_get_height() {
+	camera_warn();
+	return global.camera.height;
 }
