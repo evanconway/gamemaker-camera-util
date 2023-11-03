@@ -19,12 +19,13 @@
   },
   "resources": [
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
-    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
+    {"id":{"name":"Test","path":"scripts/Test/Test.yy",},},
+    {"id":{"name":"spr_thing","path":"sprites/spr_thing/spr_thing.yy",},},
     {"id":{"name":"Camera","path":"scripts/Camera/Camera.yy",},},
-    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"id":{"name":"rm_test_1","path":"rooms/rm_test_1/rm_test_1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"rm_test_1","path":"rooms/rm_test_1/rm_test_1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
