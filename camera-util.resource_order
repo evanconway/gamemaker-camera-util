@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"spr_test","order":4,"path":"sprites/spr_test/spr_test.yy",},
     {"name":"Camera","order":2,"path":"scripts/Camera/Camera.yy",},
     {"name":"rm_test","order":1,"path":"rooms/rm_test/rm_test.yy",},
   ],
