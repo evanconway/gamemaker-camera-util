@@ -61,11 +61,17 @@ function camera_set_position(position_x, position_y) {
 	camera_set_view_pos(view_camera[0], position_x, position_y);
 }
 
+/**
+ * Get the x position of the camera.
+ */
 function camera_get_x() {
 	camera_warn();
 	return camera_get_view_x(view_camera[0]);
 }
 
+/**
+ * Get the y position of the camera.
+ */
 function camera_get_y() {
 	camera_warn();
 	return camera_get_view_y(view_camera[0]);

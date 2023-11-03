@@ -18,6 +18,7 @@
     "IDEVersion": "2023.8.1.102",
   },
   "resources": [
+    {"id":{"name":"rm_test_2","path":"rooms/rm_test_2/rm_test_2.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"Test","path":"scripts/Test/Test.yy",},},
     {"id":{"name":"spr_thing","path":"sprites/spr_thing/spr_thing.yy",},},
@@ -26,6 +27,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_test_1","path":"rooms/rm_test_1/rm_test_1.yy",},},
+    {"roomId":{"name":"rm_test_2","path":"rooms/rm_test_2/rm_test_2.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
