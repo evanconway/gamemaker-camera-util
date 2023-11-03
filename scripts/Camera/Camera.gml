@@ -38,6 +38,7 @@ camera_init();
  * @param {real} multiplier
  */
 function camera_set_size(width, height, multiplier=1) {
+	if (global.camera == noone) return;
 	global.camera.width = width;
 	global.camera.height = height;
 	global.camera.multiplier = multiplier;
@@ -51,6 +52,7 @@ function camera_set_size(width, height, multiplier=1) {
  * @param {real} position_y
  */
 function camera_set_position(position_x, position_y) {
+	if (global.camera == noone) return;
 	camera_set_view_pos(view_camera[0], position_x, position_y);
 }
 
@@ -58,6 +60,7 @@ function camera_set_position(position_x, position_y) {
  * Get the x position of the camera.
  */
 function camera_get_x() {
+	if (global.camera == noone) return 0;
 	return camera_get_view_x(view_camera[0]);
 }
 
@@ -65,13 +68,18 @@ function camera_get_x() {
  * Get the y position of the camera.
  */
 function camera_get_y() {
+	if (global.camera == noone) return 0;
 	return camera_get_view_y(view_camera[0]);
 }
 
 function camera_get_width() {
+	if (global.camera == noone) return 0;
+	// feather disable GM1035
 	return global.camera.width;
 }
 
 function camera_get_height() {
+	if (global.camera == noone) return 0;
+	// feather disable GM1035
 	return global.camera.height;
 }
