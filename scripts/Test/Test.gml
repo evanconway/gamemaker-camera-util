@@ -1,6 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function Test() {
+function test() {
 	var f = function() {
 		var change_x = 0;
 		var change_y = 0;
@@ -29,4 +27,4 @@ function Test() {
 		-1
 	));
 }
-Test();
+test();
