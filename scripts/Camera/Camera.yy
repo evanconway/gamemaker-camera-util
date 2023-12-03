@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "camera-util",
-    "path": "camera-util.yyp",
+    "name": "Camera",
+    "path": "folders/Camera.yy",
   },
 }

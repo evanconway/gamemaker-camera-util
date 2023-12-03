@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "camera-util",
-    "path": "camera-util.yyp",
+    "name": "Camera",
+    "path": "folders/Camera.yy",
   },
   "parentObjectId": null,
   "persistent": true,

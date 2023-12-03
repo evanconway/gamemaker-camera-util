@@ -1,11 +1,12 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Camera","order":7,"path":"folders/Camera.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"rm_test_2","order":6,"path":"rooms/rm_test_2/rm_test_2.yy",},
-    {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"Test","order":5,"path":"scripts/Test/Test.yy",},
     {"name":"spr_thing","order":4,"path":"sprites/spr_thing/spr_thing.yy",},
-    {"name":"Camera","order":2,"path":"scripts/Camera/Camera.yy",},
     {"name":"rm_test_1","order":1,"path":"rooms/rm_test_1/rm_test_1.yy",},
   ],
 }

@@ -1,6 +1,9 @@
+/// @ignore
 global.camera = noone;
+/// @ignore
 global.camera_interval = 0;
 
+/// @ignore
 function camera_init() {
 	// feather ignore GM1043
 	global.camera_interval = time_source_create(

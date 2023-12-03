@@ -10,7 +10,9 @@
     "name": "Default",
   },
   "defaultScriptType": 1,
-  "Folders": [],
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Camera","folderPath":"folders/Camera.yy",},
+  ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
